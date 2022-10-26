@@ -3,6 +3,8 @@ const checkBtn = document.querySelector("#check-btn");
 const cashGiven = document.querySelector("#cash-given");
 const message = document.querySelector("#error-message");
 
+const availableNotes =[2000,500,100,20,10,5,1];
+
 checkBtn.addEventListener("click", function validateBillAndCashAmout() {
     hideMessage();
 
@@ -32,6 +34,10 @@ calculateChange(amountToBeReturned);
 
 
 });
+function calculateChange(amountToBeReturned) {
+
+}
+
 function hideMessage(){
     message.style.display = "none";
 
