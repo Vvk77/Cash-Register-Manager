@@ -2,8 +2,127 @@
 
 }
 
+*{
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:none;
+    margin:0%;
+    text-align: center;
+    background-color: rgb(169, 198, 188);
+    
+    
+}
+
+.heading {
+    text-align: center;
+    background-image:linear-gradient(90deg,aqua,gray);
+    font-size:250%;
+    color: aqua,gray;
+    
+}
+
 .container{
-    display: flex;
-    flex-direction: column;
-    width: 30vw;
+    display:block;
+    padding-bottom: 5rem;
+    color: #57534E;
+    }
+
+.description{
+    display: block;
+    text-align: center;
+    font-size: larger
+    ;
+}
+
+input{
+    display: block;
+    padding: 0.5rem;
+    
+    width: 15rem;
+    border: solid aqua;
+    margin: auto;
+}
+
+label{
+    font-size: 150%;
+    padding-bottom: 2rem;
+
+}
+
+
+.change-table{
+    width: 50%;
+    text-align: justify;
+    border-collapse: collapse;
+    margin: auto;
+    
+
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+tr{
+    min-width: 5rem;
+    border: 2px solid aqua;
+    margin: auto;
+    height:8vh;
+}
+
+td {
+    display:table-cell;
+    border: 2px solid aqua;
+    margin: auto;
+    width: 5rem;
+    padding: 1rem;
+}
+
+th{
+    text-align: center;
+    font-size: 110%;
+}
+
+#check-btn{
+    border: solid aqua;
+    width: 5rem;
+    height: 4vh;
+    font-weight: bold;
+    color: white;
+    background-image: linear-gradient(150deg,skyblue,gray)
+}
+
+
+
+
+
+
+caption{
+    font-size: x-large;
+    padding: 1.5rem;
+    ;
+}
+
+.no-of-notes{
+    font-weight: bold;
+    
+}
+
+#bill-amount {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#cash-given {
+    margin-top: 1rem;
+
+}
+
+#check-btn {
+    margin-top: 1rem;
 }
